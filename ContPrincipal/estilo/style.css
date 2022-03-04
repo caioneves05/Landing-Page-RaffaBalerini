@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-image: linear-gradient(45deg, black, #350000);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.cabecalho-imagem{
+    height: 72px;
+}
+.itens{
+    display: flex;
+    gap: 32px;
+}.link-cabecalho{
+    font-family: 'sarala';
+    font-weight: 400;
+    font-size: 20px;
+    color: #ECD6C4;
+}
+
+.conteudo{
+    margin-bottom: 45px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 65px;
+    color: #ECD6C4;
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'sarala';
+    font-weight: 100;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: #ECD6C4;
+    font-family: 'sarala';
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: transparent;
+    color: #ECD6C4;
+    transition: 0.9;
+    cursor: pointer;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    
+}
+.conteudo-secundario-titulo{
+    font-family: 'Righteous';
+    color: #ECD6C4;
+    font-weight: 100;
+}
+.conteudo-secundario-paragrafo{
+    font-family: 'sarala';
+    color: #ECD6C4;
+    font-weight: 100;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.footer-img{
+    max-width: 5%;
+}
+.footer-paragrafo{
+    font-family: 'sarala';
+    font-size: 20px;
+    color: #ECD6C4;
+}
+.footer-paragrafo > a{
+    font-family: 'sarala';
+    font-size: 20px;
+    color: #ECD6C4;
+}
+.footer-paragrafo > a:hover{
+    background-color: #ECD6C4;
+    color: #120000;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+    
