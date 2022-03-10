@@ -1,0 +1,40 @@
+@media screen and (max-width: 760px){
+    .cabecalho, nav{
+        flex-direction: column;
+
+    }
+    .conteudo-principal{
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .link-cabecalho{
+        text-align: center;
+    }
+    .conteudo-principal-escrito-titulo{
+        text-align: center;
+    }
+    .conteudo-principal-escrito-subtitulo{
+        text-align: center;
+    }
+    #botao{
+        margin: auto;
+        margin-top: 15px;
+    }
+    .conteudo-principal-imagem{
+        max-width: 80%;
+        margin-top: 10px;
+    }
+    .conteudo-secundario{
+        max-width: 80%;
+        margin: auto;
+    }
+    .rodape{
+        font-size: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-img{
+        display: none;
+    }
+}
